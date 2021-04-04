@@ -391,11 +391,6 @@ a {
   font-style: normal;
 }
 
-.quote--line {
-  position: relative;
-  bottom: 10px;
-}
-
 .quote__author {
   font-size: 3rem;
   font-weight: 500;
@@ -407,18 +402,4 @@ a {
   margin-top: 0;
   font-size: 2rem;
   opacity: 0.4;
-}
-
-@media screen and (min-width: 1024px) {
-  .quote {
-    font-size: 2rem;
-  }
-
-  .quote__author {
-    font-size: 2.4rem;
-  }
-
-  .quote__company {
-    font-size: 1.6rem;
-  }
 }

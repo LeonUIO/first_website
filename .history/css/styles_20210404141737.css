@@ -409,16 +409,4 @@ a {
   opacity: 0.4;
 }
 
-@media screen and (min-width: 1024px) {
-  .quote {
-    font-size: 2rem;
-  }
-
-  .quote__author {
-    font-size: 2.4rem;
-  }
-
-  .quote__company {
-    font-size: 1.6rem;
-  }
-}
+@media screen and (min-width)

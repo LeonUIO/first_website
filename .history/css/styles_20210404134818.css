@@ -387,38 +387,21 @@ a {
   content: close-quote;
 }
 
-.quote__footer {
-  font-style: normal;
+.quote--img {
+  margin-top: 0;
 }
 
-.quote--line {
-  position: relative;
-  bottom: 10px;
+.media--quotes .media__body {
+  font-style: initial;
 }
 
 .quote__author {
   font-size: 3rem;
-  font-weight: 500;
-  margin-bottom: 0;
+  font-weight: 600;
 }
 
-.quote__company {
-  color: var(--color-headings);
+.company--quote {
   margin-top: 0;
-  font-size: 2rem;
-  opacity: 0.4;
-}
-
-@media screen and (min-width: 1024px) {
-  .quote {
-    font-size: 2rem;
-  }
-
-  .quote__author {
-    font-size: 2.4rem;
-  }
-
-  .quote__company {
-    font-size: 1.6rem;
-  }
+  font-size: 2.5rem;
+  opacity: 0.5;
 }
