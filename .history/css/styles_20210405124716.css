@@ -480,16 +480,9 @@ a {
   .testimonial .quote {
     margin-left: 6rem;
   }
-}
 
-@media screen and (max-width: 768px) {
-  .testimonial .icon-container {
-    width: 60px;
-    height: 60px;
-  }
-  .testimonial__image > .icon-container {
-    position: absolute;
-    top: 3rem;
-    right: -30px;
+  .testimonial__image .icon--small {
+    width: 25px;
+    height: 25px;
   }
 }

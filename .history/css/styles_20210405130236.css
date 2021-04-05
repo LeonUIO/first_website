@@ -487,9 +487,4 @@ a {
     width: 60px;
     height: 60px;
   }
-  .testimonial__image > .icon-container {
-    position: absolute;
-    top: 3rem;
-    right: -30px;
-  }
 }
