@@ -526,9 +526,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  .callout .grid--cols-2 {
-    grid-template-columns: 1fr auto;
-  }
+  .cal
 
   .callout__content {
     text-align: left;

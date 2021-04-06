@@ -226,11 +226,6 @@ a {
   background: #ec3000;
 }
 
-.btn--stretched {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
 .btn--block {
   width: 100%;
   display: inline-block;
@@ -500,42 +495,11 @@ a {
 }
 
 /* Callouts */
-.callout {
-  border-radius: 5px;
-  padding: 4rem;
-}
-
-.callout--primary {
-  background: var(--color-primary);
-  color: #fff;
-}
-
 .callout__heading {
   margin-top: 0;
   font-size: 3rem;
-  color: #fff;
 }
 
 .callout__content {
   text-align: center;
-}
-
-.callout .btn {
-  justify-self: center;
-  align-self: center;
-}
-
-@media (min-width: 768px) {
-  .callout .grid--cols-2 {
-    grid-template-columns: 1fr auto;
-  }
-
-  .callout__content {
-    text-align: left;
-  }
-
-  .callout .btn {
-    justify-self: start;
-    margin: 0 2rem;
-  }
 }

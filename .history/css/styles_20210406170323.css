@@ -526,16 +526,12 @@ a {
 }
 
 @media (min-width: 768px) {
-  .callout .grid--cols-2 {
-    grid-template-columns: 1fr auto;
-  }
-
   .callout__content {
     text-align: left;
   }
 
-  .callout .btn {
-    justify-self: start;
-    margin: 0 2rem;
+  .callout .btn{
+    justify-self:s
+  }
   }
 }

@@ -525,17 +525,9 @@ a {
   align-self: center;
 }
 
-@media (min-width: 768px) {
-  .callout .grid--cols-2 {
-    grid-template-columns: 1fr auto;
+@media (min-width: 768px){
+  .callout__content{
+    
   }
-
-  .callout__content {
-    text-align: left;
-  }
-
-  .callout .btn {
-    justify-self: start;
-    margin: 0 2rem;
   }
 }
