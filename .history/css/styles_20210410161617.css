@@ -690,9 +690,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
-    padding-top: 0;
-  }
+.hero
 
   .hero__content {
     text-align: left;
