@@ -758,7 +758,7 @@ a {
 }
 /* Plan Block */
 .block-plan .grid {
-  gap: 8rem 4rem;
+  gap: 4rem;
 }
 
 .block-plan .card {
