@@ -769,11 +769,6 @@ a {
 /* Features */
 .feature {
   gap: 2rem 4rem;
-  margin: 12rem 0;
-}
-
-.feature:first-of-type {
-  margin: 6rem 0;
 }
 
 .feature__heading {
@@ -781,11 +776,5 @@ a {
 }
 
 .feature__image {
-  width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .feature:nth-of-type(even) .feature__content {
-    order: 2;
-  }
+  width: 200%;
 }
