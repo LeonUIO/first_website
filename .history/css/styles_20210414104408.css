@@ -832,12 +832,6 @@ a {
   margin-top: 5rem;
 }
 
-/* TODO: 考虑把img 的 width 属性用于全局 */
-.footer__brand img {
-  width: 100%;
-  max-width: 230px;
-}
-
 .footer__copyright {
   color: #fff;
   opacity: 0.3;
@@ -862,6 +856,8 @@ a {
     order: -1;
     margin-top: 1rem;
   }
+
+  .footer__brand
 
   .footer__copyright {
     font-size: 1.5rem;

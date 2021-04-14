@@ -832,12 +832,6 @@ a {
   margin-top: 5rem;
 }
 
-/* TODO: 考虑把img 的 width 属性用于全局 */
-.footer__brand img {
-  width: 100%;
-  max-width: 230px;
-}
-
 .footer__copyright {
   color: #fff;
   opacity: 0.3;
@@ -849,42 +843,12 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 
-  .footer .collapsible--chevron {
+  .footer .collapsible--chevron{
     display: none;
   }
 
-  .footer .collapsible__content {
+  .footer .collapsible__content{
     opacity: 1;
-    max-height: 100%;
-  }
-
-  .footer__brand {
-    order: -1;
-    margin-top: 1rem;
-  }
-
-  .footer__copyright {
-    font-size: 1.5rem;
-  }
-
-  .footer__section {
-    border: 0;
-  }
-
-  .footer__heading {
-    font-size: 1.6rem;
-  }
-
-  .footer__section .list {
-    margin: 0;
-  }
-
-  .footer a {
-    color: #777;
-    transition: 0.3s;
-  }
-
-  .footer a:hover {
-    color: #fff;
+    he
   }
 }

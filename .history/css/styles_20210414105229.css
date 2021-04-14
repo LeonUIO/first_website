@@ -835,7 +835,7 @@ a {
 /* TODO: 考虑把img 的 width 属性用于全局 */
 .footer__brand img {
   width: 100%;
-  max-width: 230px;
+  max-width
 }
 
 .footer__copyright {
