@@ -468,7 +468,7 @@ a {
 }
 
 .quote__author {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -476,7 +476,7 @@ a {
 .quote__company {
   color: var(--color-headings);
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   opacity: 0.4;
 }
 
@@ -515,14 +515,8 @@ a {
   padding: 3rem;
 }
 
-.testimonial .quote {
-  margin: 2rem 0;
-  font-size: 110%;
-}
-
 .testimonial__image {
   position: relative;
-  margin: 0 3rem;
 }
 
 .testimonial__image > .icon-container {
@@ -532,14 +526,25 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .testimonial__image {
-    margin: 0;
+  .testimonial .quote,
+  .testimonial .quote__author {
+    font-size: 2.4rem;
   }
 
   .testimonial .quote {
-    margin: 5rem 0 0 6rem;
-    font-size: 120%;
-    line-height: 1.5;
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial .icon-container {
+    width: 60px;
+    height: 60px;
+  }
+  .testimonial__image > .icon-container {
+    position: absolute;
+    top: 3rem;
+    right: -30px;
   }
 }
 
@@ -617,7 +622,7 @@ a {
 
 /* Blocks */
 .block {
-  --padding-vertical: 5rem;
+  --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem;
 }
 
@@ -830,29 +835,15 @@ a {
   background: #232323;
 }
 
-.footer a {
-  color: #777;
-  transition: 0.3s;
-}
-
-.footer a:hover {
-  color: #fff;
-}
-
 .footer__section {
   padding: 2rem;
   border-bottom: 1px solid #393939;
 }
 
-.footer__section .list {
-  margin: 0;
-}
-
 .footer__heading {
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  line-height: 1.5;
-  font-size: 2.5rem;
 }
 
 .footer__brand {
@@ -871,10 +862,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .footer{
-    font-size: 1.5rem;
-  }
-
   .footer__sections {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
@@ -904,9 +891,17 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
-}
 
-/* Sign-up Callout */
-.callout-signup {
-  transform: translateY(5rem);
+  .footer__section .list {
+    margin: 0;
+  }
+
+  .footer a {
+    color: #777;
+    transition: 0.3s;
+  }
+
+  .footer a:hover {
+    color: #fff;
+  }
 }

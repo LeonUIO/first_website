@@ -852,7 +852,7 @@ a {
   text-transform: uppercase;
   font-weight: 600;
   line-height: 1.5;
-  font-size: 2.5rem;
+
 }
 
 .footer__brand {
@@ -871,10 +871,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .footer{
-    font-size: 1.5rem;
-  }
-
   .footer__sections {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
@@ -904,6 +900,8 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+
+ 
 }
 
 /* Sign-up Callout */
